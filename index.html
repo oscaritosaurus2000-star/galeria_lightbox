@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width,initial-scale=1.0">
+	<title>Galería con Lightbox</title>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+	<header>
+		<h1>Galería de Fotos con Efecto Lightbox</h1>
+		<p>Haz clic en una imagen para ampliarla</p>
+	</header>
+
+	<section class="galeria">
+		<img src="img/soooo.jfif" alt="Imagen 1">
+		<img src="img/sooo.jpg" alt="Imagen 2">
+		<img src="img/soo.jpg" alt="Imagen 3">
+		<img src="img/so.jpg" alt="Imagen 4">
+	</section>
+
+	<div id="Lightbox" class="Lightbox">
+		<span class="cerrar">&times;</span>
+		<img class="Lightbox-contenido"
+		id="imagen-ampliada">
+		<div id="caption"></div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
